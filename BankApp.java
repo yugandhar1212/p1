@@ -40,9 +40,7 @@ class BankTransaction {
         System.out.println("Account Number: " + accountNumber);
         System.out.println("Balance: $" + balance);
     }
-}
 
-public class BankApp {
     public static void main(String[] args) {
         BankCustomer customer = new BankCustomer("Ram", "Ram123", "123 Main Street");
         BankTransaction transaction = new BankTransaction("SBI", "Ram", "Savings", "SB123456789", 1000.50);
